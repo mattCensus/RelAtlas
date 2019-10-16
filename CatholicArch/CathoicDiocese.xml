@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GPM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../../schemas-xsds/newGPMStd/VectorGPM.xsd" profile="vector">
+    <FGDC_Required>
+        <ISO_Theme>
+            <ISO_Keyword_Thesaurus>ISO 19115 Topic Categories</ISO_Keyword_Thesaurus>
+           <ISO_Keyword>boundaries</ISO_Keyword>
+            <ISO_Keyword>society</ISO_Keyword>
+        </ISO_Theme>
+    </FGDC_Required>
+    <Identification_Information>
+        <Citation>
+            <Originator>McCready Mapping</Originator>
+            <Publication_Date>20190828</Publication_Date>
+            <Title>The Roman Catholic Dioceses of the United States, 2017</Title>
+            <Geospatial_Data_Presentation_Form>mapDigital</Geospatial_Data_Presentation_Form>
+            <Online_Linkage></Online_Linkage>
+        </Citation>
+        <Description>
+            <Abstract>A diocese is the territory ruled over by a bishop. An archdiocese is the territory ruled over by an archbishop or cardinal. An ecclesiastical
+                province consists of several dioceses and one archdiocese and is overseen by the archbishop or cardinal.  This shape file of the Catholic Dioceses of
+                the United States (including the Puerto Rico and the Virgin Islands) contains the diocese name, the dioceses ecclesiastical  province, the total
+                population of the archdiocese, the total Catholic population, the percent Catholic for each diocese and the number of Catholic priest accused of
+                sexual abuse.</Abstract>
+            <Purpose>To provide a map of the Catholic dioceses of the United States.</Purpose>
+        </Description>
+        <Time_Period_of_Content>
+            <Calendar_Date>2017</Calendar_Date>
+            <Currentness_Reference>ground condition</Currentness_Reference>
+        </Time_Period_of_Content>
+        <Status>
+            <Progress>Completed</Progress>
+            <Maintenance_and_Update_Frequency>As needed</Maintenance_and_Update_Frequency>
+        </Status>
+        <Spatial_Domain>
+            <Bounding_Coordinates>
+                <West_Bounding_Coordinate>-179.231086</West_Bounding_Coordinate>
+                <East_Bounding_Coordinate>179.859681</East_Bounding_Coordinate>
+                <North_Bounding_Coordinate>71.439786</North_Bounding_Coordinate>
+                <South_Bounding_Coordinate>-14.601813</South_Bounding_Coordinate>
+            </Bounding_Coordinates>
+        </Spatial_Domain>
+        <Keywords>
+            <Theme>
+               <Theme_Keyword_Thesaurus>None</Theme_Keyword_Thesaurus>
+                <Theme_Keyword>diocese</Theme_Keyword>
+                <Theme_Keyword>archdioces</Theme_Keyword>
+                <Theme_Keyword>ecclesiastical province</Theme_Keyword>
+            </Theme>
+            <Place>
+                <Place_Keyword_Thesaurus>http://www.catholic-hierarchy.org/</Place_Keyword_Thesaurus>
+                <Place_Keyword>Agaña</Place_Keyword>
+                <Place_Keyword>Albany</Place_Keyword>
+                <Place_Keyword>Alexandria in Louisiana</Place_Keyword>
+                <Place_Keyword>Allentown</Place_Keyword>
+                <Place_Keyword>Altoona–Johnstown</Place_Keyword>
+                <Place_Keyword>Amarillo</Place_Keyword>
+                <Place_Keyword>Anchorage</Place_Keyword>
+                <Place_Keyword>Arecibo</Place_Keyword>
+                <Place_Keyword>Arlington</Place_Keyword>
+                <Place_Keyword>Atlanta</Place_Keyword>
+                <Place_Keyword>Austin</Place_Keyword>
+                <Place_Keyword>Baker</Place_Keyword>
+                <Place_Keyword>Baltimore</Place_Keyword>
+                <Place_Keyword>Baton Rouge</Place_Keyword>
+                <Place_Keyword>Beaumont</Place_Keyword>
+                <Place_Keyword>Belleville</Place_Keyword>
+                <Place_Keyword>Biloxi</Place_Keyword>
+                <Place_Keyword>Birmingham in Alabama</Place_Keyword>
+                <Place_Keyword>Bismarck</Place_Keyword>
+                <Place_Keyword>Boise</Place_Keyword>
+                <Place_Keyword>Boston</Place_Keyword>
+                <Place_Keyword>Bridgeport</Place_Keyword>
+                <Place_Keyword>Brooklyn</Place_Keyword>
+                <Place_Keyword>Brownsville</Place_Keyword>
+                <Place_Keyword>Buffalo</Place_Keyword>
+                <Place_Keyword>Burlington</Place_Keyword>
+                <Place_Keyword>Caguas</Place_Keyword>
+                <Place_Keyword>Camden</Place_Keyword>
+                <Place_Keyword>Chalan Kanoa</Place_Keyword>
+                <Place_Keyword>Charleston</Place_Keyword>
+                <Place_Keyword>Charlotte</Place_Keyword>
+                <Place_Keyword>Cheyenne</Place_Keyword>
+                <Place_Keyword>Chicago</Place_Keyword>
+                <Place_Keyword>Cincinnati</Place_Keyword>
+                <Place_Keyword>Cleveland</Place_Keyword>
+                <Place_Keyword>Colorado Springs</Place_Keyword>
+                <Place_Keyword>Columbus</Place_Keyword>
+                <Place_Keyword>Corpus Christi</Place_Keyword>
+                <Place_Keyword>Covington</Place_Keyword>
+                <Place_Keyword>Crookston</Place_Keyword>
+                <Place_Keyword>Dallas</Place_Keyword>
+                <Place_Keyword>Davenport</Place_Keyword>
+                <Place_Keyword>Denver</Place_Keyword>
+                <Place_Keyword>Des Moines</Place_Keyword>
+                <Place_Keyword>Detroit</Place_Keyword>
+                <Place_Keyword>Dodge City</Place_Keyword>
+                <Place_Keyword>Dubuque</Place_Keyword>
+                <Place_Keyword>Duluth</Place_Keyword>
+                <Place_Keyword>El Paso</Place_Keyword>
+                <Place_Keyword>Erie</Place_Keyword>
+                <Place_Keyword>Evansville</Place_Keyword>
+                <Place_Keyword>Fairbanks</Place_Keyword>
+                <Place_Keyword>Fajardo–Humacao</Place_Keyword>
+                <Place_Keyword>Fall River</Place_Keyword>
+                <Place_Keyword>Fargo</Place_Keyword>
+                <Place_Keyword>Fort Wayne–South Bend</Place_Keyword>
+                <Place_Keyword>Fort Worth</Place_Keyword>
+                <Place_Keyword>Fresno</Place_Keyword>
+                <Place_Keyword>Gallup</Place_Keyword>
+                <Place_Keyword>Galveston–Houston</Place_Keyword>
+                <Place_Keyword>Gary</Place_Keyword>
+                <Place_Keyword>Gaylord</Place_Keyword>
+                <Place_Keyword>Grand Island</Place_Keyword>
+                <Place_Keyword>Grand Rapids</Place_Keyword>
+                <Place_Keyword>Great Falls–Billings</Place_Keyword>
+                <Place_Keyword>Green Bay</Place_Keyword>
+                <Place_Keyword>Greensburg</Place_Keyword>
+                <Place_Keyword>Harrisburg</Place_Keyword>
+                <Place_Keyword>Hartford</Place_Keyword>
+                <Place_Keyword>Helena</Place_Keyword>
+                <Place_Keyword>Honolulu</Place_Keyword>
+                <Place_Keyword>Houma–Thibodaux</Place_Keyword>
+                <Place_Keyword>Indianapolis</Place_Keyword>
+                <Place_Keyword>Jackson</Place_Keyword>
+                <Place_Keyword>Jefferson City</Place_Keyword>
+                <Place_Keyword>Joliet in Illinois</Place_Keyword>
+                <Place_Keyword>Juneau</Place_Keyword>
+                <Place_Keyword>Kalamazoo</Place_Keyword>
+                <Place_Keyword>Kansas City–Saint Joseph</Place_Keyword>
+                <Place_Keyword>Kansas City in Kansas</Place_Keyword>
+                <Place_Keyword>Knoxville</Place_Keyword>
+                <Place_Keyword>La Crosse</Place_Keyword>
+                <Place_Keyword>Lafayette in Indiana</Place_Keyword>
+                <Place_Keyword>Lafayette in Louisiana</Place_Keyword>
+                <Place_Keyword>Lake Charles</Place_Keyword>
+                <Place_Keyword>Lansing</Place_Keyword>
+                <Place_Keyword>Laredo</Place_Keyword>
+                <Place_Keyword>Las Cruces</Place_Keyword>
+                <Place_Keyword>Las Vegas</Place_Keyword>
+                <Place_Keyword>Lexington</Place_Keyword>
+                <Place_Keyword>Lincoln</Place_Keyword>
+                <Place_Keyword>Little Rock</Place_Keyword>
+                <Place_Keyword>Los Angeles</Place_Keyword>
+                <Place_Keyword>Louisville</Place_Keyword>
+                <Place_Keyword>Lubbock</Place_Keyword>
+                <Place_Keyword>Madison</Place_Keyword>
+                <Place_Keyword>Manchester</Place_Keyword>
+                <Place_Keyword>Marquette</Place_Keyword>
+                <Place_Keyword>Mayagüez</Place_Keyword>
+                <Place_Keyword>Memphis</Place_Keyword>
+                <Place_Keyword>Metuchen</Place_Keyword>
+                <Place_Keyword>Miami</Place_Keyword>
+                <Place_Keyword>Milwaukee</Place_Keyword>
+                <Place_Keyword>Mobile</Place_Keyword>
+                <Place_Keyword>Monterey in California</Place_Keyword>
+                <Place_Keyword>Nashville</Place_Keyword>
+                <Place_Keyword>New Orleans</Place_Keyword>
+                <Place_Keyword>New Ulm</Place_Keyword>
+                <Place_Keyword>New York</Place_Keyword>
+                <Place_Keyword>Newark</Place_Keyword>
+                <Place_Keyword>Norwich</Place_Keyword>
+                <Place_Keyword>Oakland</Place_Keyword>
+                <Place_Keyword>Ogdensburg</Place_Keyword>
+                <Place_Keyword>Oklahoma City</Place_Keyword>
+                <Place_Keyword>Omaha</Place_Keyword>
+                <Place_Keyword>Orange</Place_Keyword>
+                <Place_Keyword>Orlando</Place_Keyword>
+                <Place_Keyword>Owensboro</Place_Keyword>
+                <Place_Keyword>Palm Beach</Place_Keyword>
+                <Place_Keyword>Paterson</Place_Keyword>
+                <Place_Keyword>Pensacola–Tallahassee</Place_Keyword>
+                <Place_Keyword>Peoria</Place_Keyword>
+                <Place_Keyword>Philadelphia</Place_Keyword>
+                <Place_Keyword>Phoenix</Place_Keyword>
+                <Place_Keyword>Pittsburgh</Place_Keyword>
+                <Place_Keyword>Ponce</Place_Keyword>
+                <Place_Keyword>Portland</Place_Keyword>
+                <Place_Keyword>Portland in Oregon</Place_Keyword>
+                <Place_Keyword>Providence</Place_Keyword>
+                <Place_Keyword>Pueblo</Place_Keyword>
+                <Place_Keyword>Raleigh</Place_Keyword>
+                <Place_Keyword>Rapid City</Place_Keyword>
+                <Place_Keyword>Reno</Place_Keyword>
+                <Place_Keyword>Richmond</Place_Keyword>
+                <Place_Keyword>Rochester</Place_Keyword>
+                <Place_Keyword>Rockford</Place_Keyword>
+                <Place_Keyword>Rockville Centre</Place_Keyword>
+                <Place_Keyword>Sacramento</Place_Keyword>
+                <Place_Keyword>Saginaw</Place_Keyword>
+                <Place_Keyword>Saint Cloud</Place_Keyword>
+                <Place_Keyword>Saint Paul and Minneapolis</Place_Keyword>
+                <Place_Keyword>Saint Petersburg</Place_Keyword>
+                <Place_Keyword>Saint Thomas</Place_Keyword>
+                <Place_Keyword>Salina</Place_Keyword>
+                <Place_Keyword>Salt Lake City</Place_Keyword>
+                <Place_Keyword>Samoa–Pago Pago</Place_Keyword>
+                <Place_Keyword>San Angelo</Place_Keyword>
+                <Place_Keyword>San Antonio</Place_Keyword>
+                <Place_Keyword>San Bernardino</Place_Keyword>
+                <Place_Keyword>San Diego</Place_Keyword>
+                <Place_Keyword>San Francisco</Place_Keyword>
+                <Place_Keyword>San Jose in California</Place_Keyword>
+                <Place_Keyword>San Juan de Puerto Rico</Place_Keyword>
+                <Place_Keyword>Santa Fe</Place_Keyword>
+                <Place_Keyword>Santa Rosa in California</Place_Keyword>
+                <Place_Keyword>Savannah</Place_Keyword>
+                <Place_Keyword>Scranton</Place_Keyword>
+                <Place_Keyword>Seattle</Place_Keyword>
+                <Place_Keyword>Shreveport</Place_Keyword>
+                <Place_Keyword>Sioux City</Place_Keyword>
+                <Place_Keyword>Sioux Falls</Place_Keyword>
+                <Place_Keyword>Spokane</Place_Keyword>
+                <Place_Keyword>Springfield–Cape Girardeau</Place_Keyword>
+                <Place_Keyword>Springfield in Illinois</Place_Keyword>
+                <Place_Keyword>Springfield in Massachusetts</Place_Keyword>
+                <Place_Keyword>St. Augustine</Place_Keyword>
+                <Place_Keyword>St. Louis</Place_Keyword>
+                <Place_Keyword>Steubenville</Place_Keyword>
+                <Place_Keyword>Stockton</Place_Keyword>
+                <Place_Keyword>Superior</Place_Keyword>
+                <Place_Keyword>Syracuse</Place_Keyword>
+                <Place_Keyword>Toledo</Place_Keyword>
+                <Place_Keyword>Trenton</Place_Keyword>
+                <Place_Keyword>Tucson</Place_Keyword>
+                <Place_Keyword>Tulsa</Place_Keyword>
+                <Place_Keyword>Tyler</Place_Keyword>
+                <Place_Keyword>Venice in Florida</Place_Keyword>
+                <Place_Keyword>Victoria in Texas</Place_Keyword>
+                <Place_Keyword>Washington</Place_Keyword>
+                <Place_Keyword>Wheeling–Charleston</Place_Keyword>
+                <Place_Keyword>Wichita</Place_Keyword>
+                <Place_Keyword>Wilmington</Place_Keyword>
+                <Place_Keyword>Winona-Rochester</Place_Keyword>
+                <Place_Keyword>Worcester</Place_Keyword>
+                <Place_Keyword>Yakima</Place_Keyword>
+                <Place_Keyword>Youngstown</Place_Keyword>
+            </Place>
+        </Keywords>
+        <Constraints>
+           <Access_Constraints>unrestricted</Access_Constraints>
+            <Use_Constraints>copyright</Use_Constraints>
+            <Other_Constraints></Other_Constraints>
+        </Constraints>
+        <Point_of_Contact>
+            <Contact_Organization>McCready Mapping</Contact_Organization>
+            <!-- This is optional and may be ommitted -->
+            
+            <Contact_Voice_Telephone>301.763.1128</Contact_Voice_Telephone>
+            <Contact_Electronic_Mail_Address>geo.geography@census.gov</Contact_Electronic_Mail_Address>
+        </Point_of_Contact>
+    </Identification_Information>
+    <Data_Quality_Information>
+        <Atribute_Accuracy_Report>
+            <Test_Report>
+                <Result>The attributes for the shapefile are fairly. Errors may may due to the innacruract copying of data.</Result>
+            </Test_Report>
+        </Atribute_Accuracy_Report>
+        <Non_Quantitative_Attribute_Accuracy_Report>
+            <Test_Report>
+                <Result></Result>
+            </Test_Report>
+        </Non_Quantitative_Attribute_Accuracy_Report>
+        <Logical_Consistency_Report>
+            <Test_Report>
+                <Measure>Diocese boundaries are based on Census county boundaries. TIGER/Line Shapefile topological consistency test</Measure>
+                <Evaluation>The Census Bureau performed automated tests to ensure logical
+                    consistency and limits of shapefiles by collecting or generating Node/geometry
+                    and topology relationships to satisfy topological edit requirements. These
+                    requirements include: (1) Complete chains must begin and end at nodes. (2)
+                    Complete chains must connect to each other at nodes. (3) Complete chains do not
+                    extend through nodes. (4) Left and right polygons are defined for each complete
+                    chain element and are consistent throughout the extract process. (5) The chains
+                    representing the limits of the files are free of gaps.</Evaluation>
+                <Result>There may be some inconsistencies in feature names along features. An
+                    anomaly exists with the sporadic occurrence of road segments comprising a
+                    complete chain with different MAF/TIGER Feature Census Class Code (MTFCC) values
+                    assigned. This problem could affect applications that use the MTFCC values for
+                    network analysis, routing, or for assigning symbology to a feature when creating
+                    a map.</Result>
+            </Test_Report>
+            
+        </Logical_Consistency_Report>
+        <Completeness_Report>
+            <Test_Report>
+                <Result>Some dioces's information is incomplete.. This was due to a lack of information for those diocese</Result>
+            </Test_Report>
+        </Completeness_Report>
+        <Horizontal_Positional_Accuracy_Report>
+            <Test_Report>
+                <Measure>Diocese boundaries are based on Census county boundaries. The Census Bureau uses root mean square error (RMSE) as stated in the
+                    FGDC-STD-007. 3-1998, Geospatial Positioning Accuracy Standards, Part 3:
+                    National Standard for Spatial Data Accuracy.</Measure>
+                <Evaluation>The Census Bureau uses Global Positioning System (GPS) coordinates at
+                    road centerline intersections to evaluate the horizontal spatial accuracy of
+                    source files that may be used to realign road features in the MAF/TIGER database
+                    and test the horizontal spatial accuracy of the road features in the TIGER/Line
+                    Shapefiles. The test compares a survey-grade GPS coordinate to its associated
+                    road centerline intersection in the TIGER/Line Shapefiles. The test is based on
+                    an independent collection of GPS coordinates for a random sample of road
+                    intersections from a centerline file that meet certain criteria. The points are
+                    referred to as the sample points and are gathered through a private contractor
+                    working for the Census Bureau. Since the collection method uses survey-quality
+                    GPS-based field techniques, the resulting control points are considered 'ground
+                    truth' against which the TIGER road centerline intersection coordinates are
+                    compared. The distances between the coordinates are calculated and the Census
+                    Bureau determines the Circular Error 95% (CE95). That is, the accuracy of the
+                    file in meters with 95% confidence. The CE95 can be calculated from the mean and
+                    standard deviation by using the formula: mean of differences plus (2.65 times
+                    the standard deviation). CE95 results reported for each file tested are
+                    determined using a spreadsheet with embedded statistical formula. The use and
+                    applicability of the spreadsheet and its embedded formula have been verified by
+                    Census Bureau statisticians. The basis of the calculation is the use of the root
+                    mean square error (RMSE). This is the method as stated in the U.S. Government's
+                    Federal Geographic Data Committee Standard FGDC-STD-007.3-1998, Geospatial
+                    Positioning Accuracy Standards. Part 3: National Standard for Spatial Data
+                    Accuracy. The results of using this measure of accuracy are in compliance with
+                    Federal Spatial Data requirements. In terms of the Census Bureau application,
+                    the dataset coordinate values are those taken from the centerline file and the
+                    coordinate values from an independent source of higher accuracy are those
+                    acquired through the Census Bureau's contractor. Please note that the horizontal
+                    spatial accuracy, where reported, refers only to the realigned road features
+                    identified as matched to the positionally accurate source file with that
+                    accuracy. It is not the spatial accuracy of the TIGER/Line Shapefile as a
+                    whole.</Evaluation>
+                <Result>6.5 meters for 5406</Result>
+                <Result>1.73 meters for 11213</Result>
+            </Test_Report>
+        </Horizontal_Positional_Accuracy_Report>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>2018</Publication_Date>
+                <Title>TIGER/Line Shapefile, 2018,  nation, U.S., Current County and Equivalent National Shapefile</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+               <Calendar_Date>2018</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>TIGER\Line</Source_Citation_Abbreviation>
+            <Source_Contribution>Provided the geographic basis for the archdioces. Each archdioces consists of one or more counties</Source_Contribution>
+            <Source_Url>https://www2.census.gov/geo/tiger/TIGER2018/COUNTY/tl_2018_us_county.zip</Source_Url>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>20190823</Publication_Date>
+                <Title>List of Catholic dioceses in the United States</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>Unknown</Calendar_Date>
+               <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+            <Source_Contribution>Provide information about the geographic region of each archdiocese</Source_Contribution>
+            <Source_Url>https://en.wikipedia.org/wiki/List_of_Catholic_dioceses_in_the_United_States</Source_Url>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>20180423</Publication_Date>
+                <Title>Roman Catholic Archdiocese of Samoa-Apia</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>Unknown</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+            <Source_Contribution>Provided information about the archdiocese of Samoa-Apia </Source_Contribution>
+            <Source_Url>https://en.wikipedia.org/wiki/Roman_Catholic_Archdiocese_of_Samoa-Apia</Source_Url>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>20190701</Publication_Date>
+                <Title>Roman Catholic Diocese of Samoa–Pago Pago</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>Unknown</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+            <Source_Contribution>Information about the diocese of Samoa–Pago Pago</Source_Contribution>
+            <Source_Url>https://en.wikipedia.org/wiki/Roman_Catholic_Diocese_of_Samoa%E2%80%93Pago_Pago</Source_Url>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>20130316</Publication_Date>
+                <Title>The Hierarchy of the Catholic Church: Current and historical information about its bishops and dioceses</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>Unknown</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>none</Source_Citation_Abbreviation>
+            <Source_Contribution>Provided information about the number of catholics in diocese</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>2017</Publication_Date>
+                <Title>AmericanFactFinder</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>Unknown</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>AFF</Source_Citation_Abbreviation>
+            <Source_Contribution>Provided information about the total population for each diocese</Source_Contribution>
+            <Source_Url></Source_Url>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>2019</Publication_Date>
+                <Title>bishopaccountability.org: Documenting the abuse crisis in the Roman Catholic Church</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>Unknown</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>none</Source_Citation_Abbreviation>
+            <Source_Contribution>Provided the number of priests alleged to have commited rape for each diocese.</Source_Contribution>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>20190115</Publication_Date>
+                <Title>Guam archdiocese files for bankruptcy to pay off clergy sex abuse claims</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>Unknown</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>None</Source_Citation_Abbreviation>
+            <Source_Contribution>Providede information about the Archdiocese of Agana in Guam</Source_Contribution>
+            <Source_Url>https://www.usatoday.com/story/news/nation/2019/01/15/archdiocese-agana-files-bankruptcy-pay-clergy-sex-abuse-claims/2587462002/</Source_Url>
+        </Source_Information>
+        <Source_Information>
+            <Citation>
+                <Publication_Date>2019</Publication_Date>
+                <Title>GCatholic.org</Title>
+            </Citation>
+            <Type_of_Source_Media>online</Type_of_Source_Media>
+            <Time_Period_of_Content>
+                <Calendar_Date>Unknown</Calendar_Date>
+                <Currentness_Reference>publication date</Currentness_Reference>
+            </Time_Period_of_Content>
+            <Source_Citation_Abbreviation>GCatholic.org</Source_Citation_Abbreviation>
+            <Source_Contribution>Provided information about the total population for each diocese</Source_Contribution>
+        </Source_Information>
+        
+        <Process_Step>
+            <Process_Description>This shapefile was started by using the TIGER Current County and Equivalent National Shapefile from the U.S Census. Since easch
+            diocese is usually a collection of counties, the counties of each arcdioces were selected and labeled as belonging to that diocese. When all the counties were
+            labeled, a new shape file was created contiaoning the dioceses. Information about the total population was then determined by adding the population data
+            from the U.S Census American Factfinder for 2017 for each county. These figures were then added up.in MS Access. Figures for the number of Catolics were
+            obtained from The Hierarchy of the Catholic Church: Current and historical information about its bishops and dioceses and GCatholic.org. Information about the
+            priest accussed of sexual abuse were obtained from bishopaccountability.org and USA Today.</Process_Description>
+            <Process_Date>20190911</Process_Date>
+        </Process_Step>
+    </Data_Quality_Information>
+    <Spatial_Data_Organization_Information>
+        <Indirect_Spatial_Reference>None</Indirect_Spatial_Reference>
+       <Direct_Spatial_Reference_Method>Vector</Direct_Spatial_Reference_Method>
+       <Topology_Level>fullPlanarGraph</Topology_Level>
+        <SDTS_Terms_Description>
+          <SDTS_Point_and_Vector_Object_Type>curve</SDTS_Point_and_Vector_Object_Type>
+            <Point_and_Vector_Object_Count>187</Point_and_Vector_Object_Count>
+        </SDTS_Terms_Description>
+    </Spatial_Data_Organization_Information>
+    <Spatial_Reference_Information>
+        <EPSG_Reference>
+            <EPSG_Code>urn:ogc:def:crs:EPSG::4269</EPSG_Code>
+            <EPSG_Code_Space>http://www.epsg-registry.org/export.htm</EPSG_Code_Space>
+            <EPSG_Version>9.2.2</EPSG_Version>
+        </EPSG_Reference>
+        <Geodetic_Model>
+            <Horizontal_Datum_Name>North American Datum of 1983</Horizontal_Datum_Name>
+            <Elipsoid_Name>Geodetic Reference System 80</Elipsoid_Name>
+            <Semi-Major_Axis>6378137</Semi-Major_Axis>
+            <Denominator_of_Flattening_Ratio>298.257</Denominator_of_Flattening_Ratio>
+        </Geodetic_Model>
+    </Spatial_Reference_Information>
+    <Entity_and_Attribute_Information>  
+        <Detailed_Description>
+            <Entity_Type>
+                <Entity_Type_Label>ArchdioseseMap5</Entity_Type_Label>
+                <Entity_Type_Definition>Shapefile of all the Catholic dioces in the United States</Entity_Type_Definition>
+                <Entity_Type_Definition_Source>McCreadyMapping</Entity_Type_Definition_Source>
+            </Entity_Type>
+            <Attribute>
+                <Attribute_Label>FID</Attribute_Label>
+                <Attribute_Definition>Feature Identifier: a unique, long integer to identify each record</Attribute_Definition>
+                <Attribute_Definition_Source>ESRI</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain> a unique, long integer to identify each record</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Shape</Attribute_Label>
+                <Attribute_Definition>tthe type of geometry—point, line, polygon, multipoint, or multipatch—the table stores.</Attribute_Definition>
+                <Attribute_Definition_Source>ESRI</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                  <Enumerated_Domain>
+                      <Enumerated_Domain_Value>point</Enumerated_Domain_Value>
+                      <Enumerated_Domain_Value_Definition>a point is a discrete location on the surface of the planet, represented by an x-y coordinate pair.</Enumerated_Domain_Value_Definition>
+                      <Enumerated_Domain_Value_Definition_Source>http://wiki.gis.com</Enumerated_Domain_Value_Definition_Source>
+                  </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>line</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>a shape defined by a connected series of unique x,y coordinate pairs</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>http://wiki.gis.com</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>polygon</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>a closed shape defined by a connected sequence of x,y coordinate pairs, where the first and last coordinate pair are the same and all other pairs are unique</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>http://wiki.gis.com</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>multipoint</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>a geometric element defined by an unordered set of x,y coordinate pairs</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>http://wiki.gis.com</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+                <Attribute_Domain_Values>
+                    <Enumerated_Domain>
+                        <Enumerated_Domain_Value>multipatch</Enumerated_Domain_Value>
+                        <Enumerated_Domain_Value_Definition>a type of geometry comprised of planar three-dimensional rings and triangles, used in combination to model objects that
+                            occupy discrete area or volume in three-dimensional space. Multipatches may represent geometric objects like spheres and cubes, or real-world objects
+                            like buildings and trees</Enumerated_Domain_Value_Definition>
+                        <Enumerated_Domain_Value_Definition_Source>http://wiki.gis.com</Enumerated_Domain_Value_Definition_Source>
+                    </Enumerated_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>OBJECTID</Attribute_Label>
+                <Attribute_Definition>a system-managed value that uniquely identifies a record or feature.</Attribute_Definition>
+                <Attribute_Definition_Source>http://wiki.gis.com</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>a system-managed value that uniquely identifies a record or feature.</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Shape_leng</Attribute_Label>
+                <Attribute_Definition>the permiter of the shape in meters</Attribute_Definition>
+                <Attribute_Definition_Source>ESRI</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>the permiter of the shape in meters</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>Shape_area</Attribute_Label>
+                <Attribute_Definition>The are of the polygon in meters squared</Attribute_Definition>
+                <Attribute_Definition_Source>ESRI</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>The are of the polygon in meters squared</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>FID</Attribute_Label>
+                <Attribute_Definition>an unique identifier of an object </Attribute_Definition>
+                <Attribute_Definition_Source>ESRI</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>an unique identifier of an object </Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>AreaSqMiles</Attribute_Label>
+                <Attribute_Definition>The area of each arhdioces in Square Miles</Attribute_Definition>
+                <Attribute_Definition_Source>McCreadyMapping</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>The area of each arhdioces in Square Miles</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>archdioce_1</Attribute_Label>
+                <Attribute_Definition>The name of each arcdioce</Attribute_Definition>
+                <Attribute_Definition_Source>McCreadyMapping</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>The name of each arcdioce</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>EcclProv</Attribute_Label>
+                <Attribute_Definition>A group of Catholic dioceses overseen by a Archbisop or cardinal</Attribute_Definition>
+                <Attribute_Definition_Source>Wikipedia</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>The name of each ecclesiastical province</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>TotalPop</Attribute_Label>
+                <Attribute_Definition>The total population of each archdioces</Attribute_Definition>
+                <Attribute_Definition_Source>U.S Census Bureau</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>The total population of each archdiocese</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>numOfCath2</Attribute_Label>
+                <Attribute_Definition>The number of Catholics in each diocese</Attribute_Definition>
+                <Attribute_Definition_Source>The Hierarchy of the Catholic Church: Current and historical information about its bishops and dioceses</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>The number of Catholics in each diocese</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>PerCath</Attribute_Label>
+                <Attribute_Definition>The percentage of Catholics in each diocese</Attribute_Definition>
+                <Attribute_Definition_Source>McCreadyMapping</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>Derived by dividing the number of Catholics by the total population</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+            <Attribute>
+                <Attribute_Label>PervPriest</Attribute_Label>
+                <Attribute_Definition> All the priests accused of abuse in the past 60 years</Attribute_Definition>
+                <Attribute_Definition_Source>bishopaccountability.org: Documenting the abuse crisis in the Roman Catholic Church</Attribute_Definition_Source>
+                <Attribute_Domain_Values>
+                    <Unrepresentable_Domain>All the priests accused of abuse in the past 60 year</Unrepresentable_Domain>
+                </Attribute_Domain_Values>
+            </Attribute>
+        </Detailed_Description>
+       <Feature_Catalogue_Description>
+           <FC_Title>Feature Catalog for The Roman Catholic Dioceses of the United States</FC_Title>
+            <Included_With_Dataset>Yes</Included_With_Dataset>
+           <Feature_Types>Roman Catholic Dioceses</Feature_Types>
+           <FC_Online_Linkage>https://github.com/mattCensus/RelAtlas</FC_Online_Linkage>
+        </Feature_Catalogue_Description>
+    </Entity_and_Attribute_Information>
+    <Distribution_Information>
+        <Point_of_Contact>
+            <Contact_Organization>McCready Mapping</Contact_Organization>
+        </Point_of_Contact>
+        <Distribution_Liability>McCready Mapping assumes no liability for this product</Distribution_Liability>
+        <Standard_Order_Process>
+            <Digital_Form>
+                <Format_Name>TGRSHP (compressed)</Format_Name>
+                <Format_Version_Date>2016</Format_Version_Date>
+                <File_Decompression_Technique>PK-ZIP, version 1.93 A or higher</File_Decompression_Technique>
+                <Network_Address>
+                    <Network_Resource_Name>https://github.com/mattCensus/RelAtlas</Network_Resource_Name>
+                    <mimeType>application/x-compressed</mimeType>
+                </Network_Address>
+            </Digital_Form>
+            <Fees>None</Fees>
+        </Standard_Order_Process>
+        <Technical_Prerequisites>The Catholic Archdiocese shapefile contains geographic data only and does not
+            include display mapping software or statistical data. For information on how to use the
+            Catholic Archdiocese shapefile data with specific software package users shall contact the company
+            that produced the software</Technical_Prerequisites>
+    </Distribution_Information>
+    <Metadata_Reference_Information>
+        <Metadata_Date>20191006</Metadata_Date>
+        <Point_of_Contact>
+            <Contact_Organization>McCready Mapping</Contact_Organization>
+            <Contact_Address>
+                <Address>5851 Quantrell Ave</Address>
+                <City>Alexandria</City>
+                <State_or_Province>VA</State_or_Province>
+                <Postal_Code>22312</Postal_Code>
+                <Country>United States</Country>
+            </Contact_Address>
+        </Point_of_Contact>
+        <Metadata_Standard_Name>Geographic information — Metadata — Part 1: Fundamentals(2014)</Metadata_Standard_Name>
+        <Metadata_Standard_Version>2014</Metadata_Standard_Version>
+        <Metadata_Character_Set>UTF-8</Metadata_Character_Set>
+        <Metadata_File_Identifier>CatholicArch.gpm.xml</Metadata_File_Identifier>
+        <Metadata_Language>eng</Metadata_Language>
+    </Metadata_Reference_Information>
+</GPM>
